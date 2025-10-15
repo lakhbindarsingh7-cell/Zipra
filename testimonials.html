@@ -1,179 +1,254 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials | Zipra Solutions</title>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="description"
+      content="Hear from teams who partnered with Zipra Solutions across digital product, platform, and AI initiatives."
     />
-    <title>Testimonials - Digital Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i"
-    />
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css" />
-    <link rel="stylesheet" href="assets/css/Features-Blue.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css" />
-    <link rel="stylesheet" href="assets/css/Team-Boxed.css" />
-    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css" />
+    <link rel="stylesheet" href="assets/css/preloader.css" />
+    <link rel="stylesheet" href="assets/css/zipra.css" />
   </head>
+  <script src="assets/js/preloader.js"></script>
+  <body class="zipra-body">
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
 
-  <body>
-    <nav
-      class="
-        navbar navbar-light navbar-expand-lg
-        fixed-top
-        bg-white
-        clean-navbar
-      "
-    >
-      <div class="container">
-        <a class="navbar-brand logo" href="#">Digital Support</a
-        ><button
-          data-bs-toggle="collapse"
-          class="navbar-toggler"
-          data-bs-target="#navcol-1"
-        >
-          <span class="visually-hidden">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="features.html">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="pricing.html">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact-us.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="registration.html">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="login.html">Login</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main class="page testimonials">
-      <section class="clean-block clean-testimonials dark">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg zipra-navbar fixed-top">
         <div class="container">
-          <div class="block-heading">
-            <h2 class="text-info">Testimonials</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam
-              urna, dignissim nec auctor in, mattis vitae leo.
-            </p>
+          <a class="navbar-brand" href="index.html#home">
+            <span class="logo-mark">Zipra</span>
+            <span class="logo-text">Solutions</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#zipraNav"
+            aria-controls="zipraNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="zipraNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="solutions.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ai-research.html">AI Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="approach.html">Approach</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Case Studies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a class="zipra-btn btn-sm" href="pricing.html">View Pricing</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="card clean-testimonial-item border-0 rounded-0">
-                <div class="card-body">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec augue nunc, pretium at augue at, convallis
-                    pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.
-                  </p>
-                  <h3>John Smith</h3>
-                  <h4 class="card-title">Founder of Something</h4>
-                </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subpage-hero">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-intro">
+              <span class="eyebrow">Testimonials</span>
+              <h1>What our partners say about working with Zipra.</h1>
+              <p>
+                From scale-ups to global enterprises, teams trust us to co-create strategy,
+                engineering, and AI programmes that deliver results.
+              </p>
+              <div class="hero-actions">
+                <a class="zipra-btn" href="contact-us.html">Start your own story</a>
+                <a class="link-arrow" href="projects.html">Read case studies →</a>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div class="card clean-testimonial-item border-0 rounded-0">
-                <div class="card-body">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec augue nunc, pretium at augue at, convallis
-                    pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.
-                  </p>
-                  <h3>John Smith</h3>
-                  <h4 class="card-title">Founder of Something</h4>
-                </div>
-              </div>
+            <div class="hero-visual">
+              <img
+                src="https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=1400&q=80"
+                alt="Leaders celebrating project success"
+                loading="lazy"
+              />
             </div>
-            <div class="col-lg-4">
-              <div class="card clean-testimonial-item border-0 rounded-0">
-                <div class="card-body">
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec augue nunc, pretium at augue at, convallis
-                    pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.
-                  </p>
-                  <h3>John Smith</h3>
-                  <h4 class="card-title">Founder of Something</h4>
-                </div>
-              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subpage-section">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Voices</span>
+            <h2>Leaders across industries share their experience.</h2>
+          </div>
+          <div class="case-study-list">
+            <article class="case-card">
+              <h3>Chief Innovation Officer, HealthTech Scaleup</h3>
+              <p>
+                “Their AI research lab translated our data ambitions into a live POC in under eight
+                weeks, complete with a roadmap for enterprise rollout.”
+              </p>
+              <a class="link-arrow" href="ai-research.html">See the AI Lab →</a>
+            </article>
+            <article class="case-card">
+              <h3>VP Product, Fintech Unicorn</h3>
+              <p>
+                “From strategy to launch, Zipra aligned every stakeholder around shared outcomes. We
+                now release features twice as fast.”
+              </p>
+              <a class="link-arrow" href="solutions.html">Explore solutions →</a>
+            </article>
+            <article class="case-card">
+              <h3>Digital Director, Global Retail Group</h3>
+              <p>
+                “They co-own delivery. The knowledge transfer left our internal teams confident and
+                empowered.”
+              </p>
+              <a class="link-arrow" href="approach.html">View approach →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="subpage-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">More feedback</span>
+            <h2>Insights from recent programmes.</h2>
+          </div>
+          <div class="link-grid">
+            <article class="link-card">
+              <span>→</span>
+              <h3>Chief Data Officer, Retail</h3>
+              <p>“Zipra’s data engineers built the mesh foundations we needed, with AI guardrails from day one.”</p>
+              <a class="link-arrow" href="ai-research.html">Learn about AI guardrails →</a>
+            </article>
+            <article class="link-card">
+              <span>→</span>
+              <h3>Head of CX, Travel</h3>
+              <p>“The service design team transformed our multi-market journey in just three months.”</p>
+              <a class="link-arrow" href="solutions.html">Review CX expertise →</a>
+            </article>
+            <article class="link-card">
+              <span>→</span>
+              <h3>Operations VP, Logistics</h3>
+              <p>“Their managed pods embedded seamlessly and accelerated automation across our network.”</p>
+              <a class="link-arrow" href="pricing.html">See managed pods →</a>
+            </article>
+            <article class="link-card">
+              <span>→</span>
+              <h3>Chief People Officer, Energy</h3>
+              <p>“Zipra invested in capability uplift, leaving our teams empowered to keep evolving.”</p>
+              <a class="link-arrow" href="approach.html">Explore enablement →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section-padding">
+        <div class="container">
+          <div class="cta-inner">
+            <div>
+              <span class="eyebrow">Let’s write yours</span>
+              <h2>Ready to create your Zipra success story?</h2>
+              <p>We’ll connect you with the specialists who best match your needs.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="zipra-btn" href="contact-us.html">Talk with us</a>
+              <a class="link-arrow" href="projects.html">See related case studies →</a>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="page-footer dark">
+
+    <footer class="zipra-footer">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <h5>Get started</h5>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sign up</a></li>
-              <li><a href="#">Downloads</a></li>
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <a class="footer-logo" href="index.html#home">
+              <span class="logo-mark">Zipra</span>
+              <span class="logo-text">Solutions</span>
+            </a>
+            <p>
+              We help ambitious teams imagine, build, and scale digital products that transform
+              their industries.
+            </p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="about-us.html">About</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
             </ul>
           </div>
-          <div class="col-sm-3">
-            <h5>About us</h5>
-            <ul>
-              <li><a href="#">Company Information</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Reviews</a></li>
+          <div class="col-6 col-lg-3">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="solutions.html">Product &amp; CX</a></li>
+              <li><a href="ai-research.html">AI Research Lab</a></li>
+              <li><a href="pricing.html">Managed Delivery</a></li>
+              <li><a href="projects.html">Transformation</a></li>
             </ul>
           </div>
-          <div class="col-sm-3">
-            <h5>Support</h5>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Help desk</a></li>
-              <li><a href="#">Forums</a></li>
-            </ul>
+          <div class="col-lg-3">
+            <h4>Stay in the loop</h4>
+            <p>Sign up to receive quarterly insights on digital strategy and AI innovation.</p>
+            <form class="newsletter-form">
+              <label class="visually-hidden" for="newsletter-email">Email</label>
+              <input
+                id="newsletter-email"
+                type="email"
+                name="email"
+                placeholder="you@company.com"
+                required
+              />
+              <button type="submit" class="zipra-btn btn-sm">Subscribe</button>
+            </form>
           </div>
-          <div class="col-sm-3">
-            <h5>Legal</h5>
-            <ul>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Zipra Solutions. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="faq.html">Support</a>
+            <a href="solutions.html">Capabilities</a>
+            <a href="contact-us.html">Let's talk</a>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <p>© 2021 Copyright Text</p>
-      </div>
     </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/vanilla-zoom.js"></script>
-    <script src="assets/js/theme.js"></script>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

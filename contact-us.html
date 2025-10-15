@@ -1,179 +1,303 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Zipra Solutions</title>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="description"
+      content="Get in touch with Zipra Solutions to discuss projects, AI proof-of-concepts, or partnership opportunities."
     />
-    <title>Contact Us - Digital Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i"
-    />
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css" />
-    <link rel="stylesheet" href="assets/css/Features-Blue.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css" />
-    <link rel="stylesheet" href="assets/css/Team-Boxed.css" />
-    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css" />
-    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/preloader.css" />
+    <link rel="stylesheet" href="assets/css/zipra.css" />
   </head>
-  <script src="/assets/js/preloader.js" ></script>
-
-  <body>
-    
+  <script src="assets/js/preloader.js"></script>
+  <body class="zipra-body">
     <div class="loader-wrapper">
       <div class="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
-  
-    <nav
-      class="
-        navbar navbar-light navbar-expand-lg
-        fixed-top
-        bg-white
-        clean-navbar
-      "
-    >
-      <div class="container">
-        <a class="navbar-brand logo" href="#">Digital Support</a
-        ><button
-          data-bs-toggle="collapse"
-          class="navbar-toggler"
-          data-bs-target="#navcol-1"
-        >
-          <span class="visually-hidden">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navcol-1">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="features.html">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact-us.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="registration.html">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main class="page contact-us-page">
-      <section class="clean-block clean-form dark">
+
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg zipra-navbar fixed-top">
         <div class="container">
-          <div class="block-heading">
-            <h2 class="text-info">Contact Us</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam
-              urna, dignissim nec auctor in, mattis vitae leo.
-            </p>
+          <a class="navbar-brand" href="index.html#home">
+            <span class="logo-mark">Zipra</span>
+            <span class="logo-text">Solutions</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#zipraNav"
+            aria-controls="zipraNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="zipraNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="solutions.html">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ai-research.html">AI Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="approach.html">Approach</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Case Studies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact-us.html">Contact</a>
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a class="zipra-btn btn-sm" href="pricing.html">View Pricing</a>
+              </li>
+            </ul>
           </div>
-          <form>
-            <div class="mb-3">
-              <label class="form-label" for="name">Name</label
-              ><input class="form-control" type="text" id="name" name="name" />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subpage-hero">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-intro">
+              <span class="eyebrow">Contact</span>
+              <h1>Let’s design the roadmap to your next big leap.</h1>
+              <p>
+                Share your challenge, and we’ll assemble the right strategists, product leads, and AI
+                specialists to explore solutions.
+              </p>
+              <div class="hero-actions">
+                <a class="zipra-btn" href="mailto:hello@zipra.solutions">Email us directly</a>
+                <a class="link-arrow" href="pricing.html">See engagement options →</a>
+              </div>
+              <div class="hero-meta">
+                <div class="stat">
+                  <strong>24 hrs</strong>
+                  <span>response time</span>
+                </div>
+                <div class="stat">
+                  <strong>Global</strong>
+                  <span>delivery hubs</span>
+                </div>
+                <div class="stat">
+                  <strong>Dedicated</strong>
+                  <span>innovation team</span>
+                </div>
+              </div>
             </div>
-            <div class="mb-3">
-              <label class="form-label" for="subject">Subject</label
-              ><input
-                class="form-control"
-                type="text"
-                id="subject"
-                name="subject"
+            <div class="hero-visual">
+              <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80"
+                alt="Leaders meeting with technology consultants"
+                loading="lazy"
               />
             </div>
-            <div class="mb-3">
-              <label class="form-label" for="email">Email</label
-              ><input
-                class="form-control"
-                type="email"
-                id="email"
-                name="email"
-              />
+          </div>
+        </div>
+      </section>
+
+      <section class="subpage-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">How can we help?</span>
+            <h2>Tell us about your goals and timelines.</h2>
+            <p>Complete the form and we’ll coordinate a discovery session.</p>
+          </div>
+          <div class="row g-4 align-items-start">
+            <div class="col-lg-6">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="firstName">First name</label>
+                  <input class="form-control" id="firstName" type="text" placeholder="Alex" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="lastName">Last name</label>
+                  <input class="form-control" id="lastName" type="text" placeholder="Morgan" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="email">Work email</label>
+                  <input class="form-control" id="email" type="email" placeholder="you@company.com" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="company">Company</label>
+                  <input class="form-control" id="company" type="text" placeholder="Company name" />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="interest">What are you exploring?</label>
+                  <select class="form-select" id="interest">
+                    <option>AI proof of concept</option>
+                    <option>Digital product build</option>
+                    <option>Platform modernisation</option>
+                    <option>Managed delivery partnership</option>
+                    <option>General enquiry</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="message">Tell us more</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Share context, key goals, and timelines."
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="zipra-btn" type="submit">Submit enquiry</button>
+                </div>
+              </form>
             </div>
-            <div class="mb-3">
-              <label class="form-label" for="message">Message</label
-              ><textarea
-                class="form-control"
-                id="message"
-                name="message"
-              ></textarea>
+            <div class="col-lg-5 ms-auto">
+              <div class="link-card">
+                <span>→</span>
+                <h3>Prefer to schedule now?</h3>
+                <p>Book time with our team to walk through your brief and discuss next steps.</p>
+                <a class="link-arrow" href="https://cal.com" target="_blank" rel="noopener">Open calendar →</a>
+              </div>
+              <div class="resource-banner resource-banner--compact">
+                <span class="eyebrow">Regional hubs</span>
+                <p>North America • Europe • Middle East • South Asia • Australia</p>
+                <a class="link-arrow" href="about-us.html">Meet local leads →</a>
+              </div>
             </div>
-            <div class="mb-3">
-              <button class="btn btn-primary" type="submit">Send</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="subpage-section">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow">Stay connected</span>
+            <h2>Explore more from Zipra Solutions.</h2>
+          </div>
+          <div class="link-grid">
+            <article class="link-card">
+              <span>01</span>
+              <h3>Solutions overview</h3>
+              <p>See how we combine strategy, engineering, and data to deliver outcomes.</p>
+              <a class="link-arrow" href="solutions.html">View solutions →</a>
+            </article>
+            <article class="link-card">
+              <span>02</span>
+              <h3>AI research programmes</h3>
+              <p>Discover our structured approach to ideation, experimentation, and landing.</p>
+              <a class="link-arrow" href="ai-research.html">Visit the AI Lab →</a>
+            </article>
+            <article class="link-card">
+              <span>03</span>
+              <h3>Delivery approach</h3>
+              <p>Learn about the rituals, guardrails, and playbooks we embed with clients.</p>
+              <a class="link-arrow" href="approach.html">Explore approach →</a>
+            </article>
+            <article class="link-card">
+              <span>04</span>
+              <h3>Case studies</h3>
+              <p>Read how teams have launched, scaled, and optimised with Zipra Solutions.</p>
+              <a class="link-arrow" href="projects.html">Browse case studies →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section-padding">
+        <div class="container">
+          <div class="cta-inner">
+            <div>
+              <span class="eyebrow">Need a rapid response?</span>
+              <h2>We’ll respond within one business day.</h2>
+              <p>
+                Share your preferred channel and we’ll match you with the right Zipra leaders to move
+                quickly.
+              </p>
             </div>
-          </form>
+            <div class="cta-actions">
+              <a class="zipra-btn" href="mailto:hello@zipra.solutions">Email our team</a>
+              <a class="link-arrow" href="pricing.html">View pricing packages →</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="page-footer dark">
+
+    <footer class="zipra-footer">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <h5>Get started</h5>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Sign up</a></li>
-              <li><a href="#">Downloads</a></li>
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <a class="footer-logo" href="index.html#home">
+              <span class="logo-mark">Zipra</span>
+              <span class="logo-text">Solutions</span>
+            </a>
+            <p>
+              We help ambitious teams imagine, build, and scale digital products that transform
+              their industries.
+            </p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h4>Company</h4>
+            <ul class="footer-links">
+              <li><a href="about-us.html">About</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
             </ul>
           </div>
-          <div class="col-sm-3">
-            <h5>About us</h5>
-            <ul>
-              <li><a href="#">Company Information</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Reviews</a></li>
+          <div class="col-6 col-lg-3">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="solutions.html">Product &amp; CX</a></li>
+              <li><a href="ai-research.html">AI Research Lab</a></li>
+              <li><a href="pricing.html">Managed Delivery</a></li>
+              <li><a href="projects.html">Transformation</a></li>
             </ul>
           </div>
-          <div class="col-sm-3">
-            <h5>Support</h5>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Help desk</a></li>
-              <li><a href="#">Forums</a></li>
-            </ul>
+          <div class="col-lg-3">
+            <h4>Stay in the loop</h4>
+            <p>Sign up to receive quarterly insights on digital strategy and AI innovation.</p>
+            <form class="newsletter-form">
+              <label class="visually-hidden" for="newsletter-email">Email</label>
+              <input
+                id="newsletter-email"
+                type="email"
+                name="email"
+                placeholder="you@company.com"
+                required
+              />
+              <button type="submit" class="zipra-btn btn-sm">Subscribe</button>
+            </form>
           </div>
-          <div class="col-sm-3">
-            <h5>Legal</h5>
-            <ul>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> Zipra Solutions. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="faq.html">Support</a>
+            <a href="solutions.html">Capabilities</a>
+            <a href="contact-us.html">Let's talk</a>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <p>© 2021 Copyright Text</p>
-      </div>
     </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/vanilla-zoom.js"></script>
-    <script src="assets/js/theme.js"></script>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
